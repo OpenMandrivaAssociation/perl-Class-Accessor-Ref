@@ -11,6 +11,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/G/GA/GAAL/%{real_name}-%{version
 BuildRequires:	perl-devel
 BuildRequires:  perl-Class-Accessor
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This is an extension of Class::Accessor that allows taking a reference
